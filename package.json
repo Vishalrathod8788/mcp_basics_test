@@ -1,0 +1,25 @@
+{
+  "name": "mcp_basics_test",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Vishalrathod8788/mcp_basics_test#readme",
+  "bugs": {
+    "url": "https://github.com/Vishalrathod8788/mcp_basics_test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishalrathod8788/mcp_basics_test.git"
+  },
+  "license": "ISC",
+  "author": "Vishal Rathod",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.1"
+  }
+}
