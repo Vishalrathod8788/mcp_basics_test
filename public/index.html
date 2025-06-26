@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MCP File Manager</title>
+</head>
+<body>
+  <h2>📂 Upload Folder</h2>
+  <input type="file" id="folderInput" webkitdirectory multiple>
+  <br><br>
+  <button onclick="uploadFolder()">Upload</button>
+
+  <h2>📄 File Operations</h2>
+  <input id="filename" placeholder="Filename (e.g., note.txt)">
+  <br><br>
+  <textarea id="filecontent" rows="5" cols="40" placeholder="File content..."></textarea>
+  <br><br>
+  <button onclick="createFile()">Create</button>
+  <button onclick="editFile()">Edit</button>
+  <button onclick="deleteFile()">Delete</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
